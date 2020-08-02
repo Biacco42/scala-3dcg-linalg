@@ -1,7 +1,7 @@
 scalaVersion := "2.13.1"
 name := "scala-3dcg-linalg"
 organization := "info.biacco42"
-organizationName := "Biacco42"
-version := "0.1.0-SNAPSHOT"
+version := "0.1.1-SNAPSHOT"
 githubOwner := "Biacco42"
 githubRepository := "scala-3dcg-linalg"
+scalacOptions ++= Seq("-deprecation", "-feature")
